@@ -1,0 +1,55 @@
+main {
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 800px;
+    padding: 0;
+    margin: 44px auto;
+
+}
+
+section {
+	
+	margin: 25px 0px;
+
+}
+
+#destination, #departure {
+	
+	margin-bottom: 44px;
+
+}
+
+.weatherDetails {
+	
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+#countdown {
+	
+	padding: 50px 0px;
+	border-top: 1px solid $tweather-white-xlight;
+	border-bottom: 1px solid $tweather-white-xlight;
+	margin: 50px 0px;
+
+}
+
+.results {
+	
+		width: 100%;
+		max-width: 576px;
+		margin: 25px auto;
+
+}
+
+#countryInfo {
+	
+	margin-bottom: 50px;
+
+}

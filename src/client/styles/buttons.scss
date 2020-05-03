@@ -1,0 +1,39 @@
+button {
+
+	font-family: 'Quicksand', sans-serif;
+	font-size: 24px;
+	line-height: 24px;
+	background-color: $tweather-white;
+	padding: 12px 24px;
+	color: $tweather-purple;	
+	font-weight: 600;
+	text-decoration: none;
+	border: 0px solid;
+	cursor: pointer;
+	width: 100%;
+
+}
+
+.secondary {
+	
+	line-height: 24px;
+	color: $tweather-white;
+	background-color: rgba(255,255,255,0.00);
+    border: 2px solid rgba(255,255,255,0.2);
+    width: 100%;
+
+}
+
+.buttonLink-small {
+
+	font-family: 'Quicksand', sans-serif;	
+	font-size: 16px;
+	line-height: 16px;
+	color: $tweather-white;
+	background-color: transparent;
+	padding: 0px 24px;
+	text-align: center;
+	display: block;
+    margin: 0px;
+
+}

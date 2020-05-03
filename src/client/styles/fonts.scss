@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300|Quicksand&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+h3 {
+	
+		font-family: 'Quicksand', sans-serif;
+		font-size: 28px;
+		line-height: 48px;
+		font-weight: 400;
+		color: $tweather-white;
+
+}
+
+
+h4 {
+
+		font-family: 'Quicksand', sans-serif;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: $tweather-white; 
+        font-weight: 800;
+		margin: 24px 0px;	
+
+}
+
+h5 {
+	
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 24px;
+		color: $tweather-white;	
+
+}
+
+p {
+	
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 24px;
+		color: $tweather-white;
+
+}
+
+
+a {
+	
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 17px;
+
+}
+
+span.bold {
+	
+		font-weight: 600;
+
+}
+
+
+.hero {
+
+		h1 {
+			
+				font-family: 'Quicksand', sans-serif;
+				font-size: 100px;
+				line-height: 180px;
+				font-weight: 500;
+				color: $tweather-white;
+				text-align: center;
+
+		}
+
+		p {
+	
+				font-family: 'Josefin Sans', sans-serif;
+				font-size: 24px;
+				font-weight: 400;
+				color: $tweather-white;
+				text-align: center;
+
+		}
+
+}
+
+
+.results {
+	
+		h1 {
+
+			font-family: 'Quicksand', sans-serif;
+			font-size: 64px;
+			color: $tweather-white;
+			font-weight: 400;
+			margin: 12px auto 12px auto;
+			text-align: center;
+
+		}
+
+		#cast {
+
+			font-family: 'Quicksand', sans-serif;
+        	font-size: 14px;
+        	font-weight: 600px;
+        	text-transform: uppercase;
+        	text-align: center;
+        	padding-right: 10px;
+        	margin-bottom: 56px;			
+
+		}
+
+}
+
+#countdown {
+	
+		text-align: center;
+
+}
+
+#countdown {
+	
+		h4 {
+
+			margin-top: 0px;
+
+		}
+
+}
+
+#countryInfo {
+	
+		p {
+
+				font-size: 18px;
+				line-height: 32px;
+
+		}
+
+}
+
+.noWeather {
+	
+		margin: 0px 0px 40px 0px;
+		text-align: center;
+
+}
+
+.displayError {
+	
+		margin: 32px 0px 72px 0px;
+		text-align: center;
+
+}

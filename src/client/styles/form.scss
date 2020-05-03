@@ -1,0 +1,115 @@
+label {
+    
+        font-family: 'Quicksand', sans-serif;
+        font-size: 14px;
+        color: $tweather-white; 
+        font-weight: 800;
+}
+
+input {
+    
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        color: $tweather-white;
+
+        padding: 16px 20px;
+        background-color: rgba(255,255,255,0.00);
+        border: 2px solid rgba(255,255,255,0.2);
+        width: 100%;
+        line-height: 36px;
+        margin-bottom: 16px;
+        margin-top: 12px;
+
+}
+
+input::placeholder {
+    
+        color: $tweather-white-xlight;        
+
+}
+
+input:focus {
+    
+        border: 2px solid rgba(255,255,255,0.9);
+
+}
+
+select {
+
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        color: $tweather-white;
+
+        background-color: rgba(255,255,255,0);
+
+        padding: 16px 20px;    
+            
+        border: 2px solid rgba(255,255,255,0.2);
+        border-radius: 0px;
+                -webkit-appearance: none;
+                -webkit-border-radius: 0px;
+        
+        width: 100%;
+        line-height: 36px;
+        margin-top: 12px;
+    
+}
+
+select:focus {
+    
+        border: 2px solid rgba(255,255,255,0.9);
+
+}
+ 
+
+/* dropdown arrow down */
+
+.select::after {
+    
+        content: '\f078';
+        color: rgba(241,226,238,.7);
+        font: normal normal normal 14px/14px FontAwesome;
+        font-weight: 100;
+        text-align: right;
+    
+        position: relative;
+        z-index: -10;
+        padding: 0px;
+        right: 15px;
+        bottom: 43px;
+        
+        width: 100%;
+ 
+        display: inline-block;    
+
+}
+
+/* *** Form animations *** */
+
+.formDefault {
+    
+        opacity: 1;
+        display: block;
+
+}
+
+.formOn {
+    
+        opacity: 1;
+        display: block;
+        transition: opacity 1s ease-in;
+        transition: display 1s ease-in;
+        
+
+}     
+
+.formOff {
+    
+        opacity: 0;
+        display: none;
+        transition: opacity 1s ease-out;
+        transition: display 1s ease-out;
+
+}

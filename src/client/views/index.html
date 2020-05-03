@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Travel App</title>
+  </head>
+  <body class="bgDefault">
+  		<main>
+  			
+  			<section class="hero">
+  					<h1>Tweather</h1>
+  					<p>Your destination for travel destination weather</p>
+  			</section>
+  			
+  			<section class="form formDefault">
+		  			
+		  			<div id="destination">
+						    <label>Destination</label>
+						    <input type="text" id="street" class="userInput" placeholder="Street"></input>
+						    <input type="text" id="city" class="userInput" placeholder="City"></input>
+						    <input type="text" id="state" class="userInput" placeholder="State"></input>
+						   
+						   	<div class="select">
+
+								    <select id="country" class="userInput" placeholder="Select a country">
+								    		<option value="">Select a country</option>
+								    		<option value="USA">United States</option>
+								    		<option value="Australia">Australia</option>
+								    		<option value="Anguilla">Anguilla</option>
+								    		<option value="Denmark">Denmark</option>
+								    </select>
+							</div>
+
+							<button class="buttonLink-small" id="getObscure">Use obscure location &#8594;</button>
+
+					</div>
+
+				    <div id="departure">
+						    
+						    <label>Departure date</label>
+						  	
+						    <div class="select">
+								  	<select id="month" class="userInput" placeholder="Month">
+								    		<option>Select a month</option>
+								    		<option value="1">Jan</option>
+								    		<option value="2">Feb</option>
+								    		<option value="3">Mar</option>
+								    		<option value="4">Apr</option>
+								    		<option value="5">May</option>
+								    		<option value="6">Jun</option>
+								    		<option value="7">Jul</option>
+								    		<option value="8">Aug</option>
+								    		<option value="9">Sep</option>
+								    		<option value="10">Oct</option>
+								    		<option value="11">Nov</option>
+								    		<option value="12">Dec</option>
+								    </select>
+							</div>
+						   
+						    <input type="text" id="day" placeholder="Day"></input>
+						   
+						    <input type="text" id="year" placeholder="Year"></input>
+					</div>
+					
+					<button id="userSubmit">Get Weather</button>
+
+
+			</section>
+
+			<section class="results resultsDefault">
+					
+					<div id="weather"></div>
+					<div id="countdown"></div>	
+					<div id="countryInfo"></div>
+					<button id="userReset" class="secondary">Reset</button>
+
+			</section>
+			
+			<section class="bg-animation">
+					<div class="area" >
+				            <ul class="circles">
+				                    <li></li>
+				                    <li></li>
+				                    <li></li>
+				                    <li></li>
+				                    <li></li>
+				                    <li></li>
+				                    <li></li>
+				                    <li></li>
+				                    <li></li>
+				                    <li></li>
+				            </ul>
+					</div >
+			</section>
+
+		</main>
+
+  </body>
+
+</html>

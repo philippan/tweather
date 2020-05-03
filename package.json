@@ -1,0 +1,72 @@
+{
+  "name": "tweather",
+  "version": "1.0.0",
+  "description": "This application was created for Udacity's Front End Development Nanodegree project. It takes user destination and departure input and returns the weather for that location and place, as well as trivia about the country. Per requirements the application relies on the geonames, weatherbit, restcountries, and pixabay APIs.",
+  "main": "server.js",
+  "engines": {
+    "node": "12.x",
+    "npm": "6.x"
+  },
+  "scripts": {
+    "start": "node ./src/server/server.js",
+    "start-dev": "webpack-dev-server",
+    "server": "node ./src/server/server.js",
+    "build": "webpack --config webpack.prod.js",
+    "build-dev": "webpack --config webpack.dev.js --open 'Google Chrome'",
+    "postinstall": "npm run build",
+    "watch": "webpack --watch",
+    "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
+    "heroku-postbuild": "echo This runs afterwards.",
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    },
+    "automock": false,
+    "setupFiles": [
+      "./setupJest.js"
+    ],
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "babel-jest": "^25.5.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "cool-ascii-faces": "^1.3.4",
+    "dotenv-webpack": "^1.7.0",
+    "express": "^4.17.1",
+    "jest-fetch-mock": "^3.0.3",
+    "regenerator-runtime": "^0.13.5",
+    "source-map-loader": "^0.2.4",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "json-loader": "^0.5.7",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-dev-server": "^3.10.3",
+    "workbox-webpack-plugin": "^5.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philippan/tweather.git"
+  },
+  "author": "Philip",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philippan/tweather/issues"
+  },
+  "homepage": "https://github.com/philippan/tweather#readme"
+}
